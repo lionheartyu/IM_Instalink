@@ -1,0 +1,1128 @@
+2021-09-16 21:48:49,585 [INFO  IM] - <msg_server.cpp>|<49>|<main>,MsgServer max files can open: 1024 
+2021-09-16 21:48:49,596 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-16 21:48:49,597 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-16 21:48:49,597 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-16 21:48:49,598 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-16 21:48:49,598 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-16 21:48:49,598 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-16 21:48:49,599 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 127.0.0.1:8100 
+2021-09-16 21:48:49,600 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-16 21:48:49,600 [INFO  IM] - <FileServConn.cpp>|<137>|<OnConfirm>,connect to file server success 
+2021-09-16 21:48:49,600 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-16 21:48:49,600 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-16 21:48:49,600 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-16 21:48:49,600 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-16 21:48:49,600 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2021-09-16 21:48:49,600 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-16 21:48:49,610 [INFO  IM] - <FileServConn.cpp>|<282>|<_HandleFileServerIPRsp>,_HandleFileServerIPRsp -> 192.168.206.131 : 8600 
+2021-09-16 21:49:05,474 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2021-09-16 21:49:05,474 [INFO  IM] - <MsgConn.cpp>|<451>|<_HandleLoginRequest>,HandleLoginReq, user_name=?????????, status=1, client_type=1, client=win_10086, 
+2021-09-16 21:49:05,495 [INFO  IM] - <DBServConn.cpp>|<293>|<_HandleValidateResponse>,HandleValidateResp, user_name=?????????, result=0
+2021-09-16 21:49:05,495 [INFO  IM] - <DBServConn.cpp>|<352>|<_HandleValidateResponse>,user_name: ?????????, uid: 1
+2021-09-16 21:49:05,495 [INFO  IM] - <RouteServConn.cpp>|<476>|<_HandlePCLoginStatusNotify>,HandlePCLoginStatusNotify, user_id=1, login_status=1 
+2021-09-16 21:49:05,495 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=1 
+2021-09-16 21:49:05,496 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0201
+
+2021-09-16 21:49:05,496 [INFO  IM] - <MsgConn.cpp>|<552>|<_HandleClientRecentContactSessionRequest>,HandleClientRecentContactSessionRequest, user_id=1, latest_update_time=1631628092. 
+2021-09-16 21:49:05,497 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0210
+
+2021-09-16 21:49:05,497 [INFO  IM] - <MsgConn.cpp>|<879>|<_HandleClientDepartmentRequest>,HandleClientDepartmentRequest, user_id=1, latest_update_time=0.
+2021-09-16 21:49:05,497 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0208
+
+2021-09-16 21:49:05,497 [INFO  IM] - <MsgConn.cpp>|<832>|<_HandleClientAllUserRequest>,HandleClientAllUserReq, user_id=1, latest_update_time=1631627917. 
+2021-09-16 21:49:05,497 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0401
+
+2021-09-16 21:49:05,497 [INFO  IM] - <GroupChat.cpp>|<37>|<HandleClientGroupNormalRequest>,HandleClientGroupNormalRequest, user_id=1. 
+2021-09-16 21:49:05,511 [INFO  IM] - <DBServConn.cpp>|<676>|<_HandleDepartmentResponse>,HandleDepartmentResponse, user_id=1, latest_update_time=1631627870, dept_cnt=2.
+2021-09-16 21:49:05,511 [INFO  IM] - <DBServConn.cpp>|<430>|<_HandleAllUserResponse>,HandleAllUserResponse, userId=1, latest_update_time=1631627917, user_cnt=0
+2021-09-16 21:49:05,511 [INFO  IM] - <DBServConn.cpp>|<407>|<_HandleRecentSessionResponse>,HandleRecentSessionResponse, userId=1, session_cnt=0
+2021-09-16 21:49:05,511 [INFO  IM] - <GroupChat.cpp>|<71>|<HandleGroupNormalResponse>,HandleGroupNormalResponse, user_id=1, group_cnt=0. 
+2021-09-16 21:49:05,530 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x020a
+
+2021-09-16 21:49:05,530 [INFO  IM] - <MsgConn.cpp>|<862>|<_HandleClientUsersStatusRequest>,HandleClientUsersStatusReq, user_id=1, query_count=3.
+2021-09-16 21:49:05,530 [INFO  IM] - <RouteServConn.cpp>|<366>|<_HandleUsersStatusResponse>,HandleUsersStatusResp, user_id=1, query_count=3 
+2021-09-16 21:49:05,531 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0307
+
+2021-09-16 21:49:05,531 [INFO  IM] - <MsgConn.cpp>|<673>|<_HandleClientUnreadMsgCntRequest>,HandleClientUnreadMsgCntReq, from_id=1 
+2021-09-16 21:49:05,531 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0509
+
+2021-09-16 21:49:05,531 [INFO  IM] - <FileHandler.cpp>|<114>|<HandleClientFileHasOfflineReq>,HandleClientFileHasOfflineReq, req_id=1   
+2021-09-16 21:49:05,543 [INFO  IM] - <DBServConn.cpp>|<589>|<_HandleUnreadMsgCountResponse>,HandleUnreadMsgCntResp, userId=1, total_cnt=0, user_unread_cnt=0.
+2021-09-16 21:49:05,543 [INFO  IM] - <FileHandler.cpp>|<224>|<HandleFileHasOfflineRes>,HandleFileHasOfflineRes, req_id=1, file_cnt=0 
+2021-09-16 21:49:18,255 [INFO  IM] - <MsgConn.cpp>|<221>|<OnClose>,Warning: peer closed. 
+2021-09-16 21:49:18,255 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=1 
+2021-09-16 21:49:18,255 [INFO  IM] - <RouteServConn.cpp>|<286>|<_HandleStatusNotify>,HandleFriendStatusNotify, user_id=1, status=2 
+2021-09-16 22:01:43,754 [INFO  IM] - <MsgConn.cpp>|<272>|<HandlePdu>,HandlePdu cmd:0x0103
+
+2021-09-16 22:01:43,754 [INFO  IM] - <MsgConn.cpp>|<451>|<_HandleLoginRequest>,HandleLoginReq, user_name=?????????, status=1, client_type=1, client=win_10086, 
+2021-09-16 22:01:43,755 [INFO  IM] - <MsgConn.cpp>|<240>|<OnTimer>,client timeout, handle=14, uid=0 
+2021-09-16 22:01:43,755 [INFO  IM] - <MsgConn.cpp>|<177>|<Close>,Close client, handle=14, user_id=0 
+2021-09-16 22:01:43,755 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-16 22:01:43,755 [INFO  IM] - <FileServConn.cpp>|<168>|<OnTimer>,conn to file server timeout 
+2021-09-16 22:01:43,755 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2021-09-16 22:01:43,755 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2021-09-16 22:01:43,755 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2021-09-16 22:01:43,755 [INFO  IM] - <DBServConn.cpp>|<192>|<OnTimer>,conn to db server timeout
+2021-09-16 22:01:43,755 [INFO  IM] - <LoginServConn.cpp>|<168>|<OnTimer>,conn to login server timeout 
+2021-09-16 22:01:43,755 [INFO  IM] - <RouteServConn.cpp>|<213>|<OnTimer>,conn to route server timeout 
+2021-09-16 22:01:43,956 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-16 22:01:43,968 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-16 22:01:43,968 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-16 22:01:43,968 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-16 22:01:43,969 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-16 22:01:43,969 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 127.0.0.1:8100 
+2021-09-16 22:01:43,969 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-16 22:01:43,969 [INFO  IM] - <FileServConn.cpp>|<137>|<OnConfirm>,connect to file server success 
+2021-09-16 22:01:43,970 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-16 22:01:43,970 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-16 22:01:43,970 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-16 22:01:43,970 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-16 22:01:43,970 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2021-09-16 22:01:43,970 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-16 22:01:43,970 [INFO  IM] - <FileServConn.cpp>|<282>|<_HandleFileServerIPRsp>,_HandleFileServerIPRsp -> 192.168.206.131 : 8600 
+2021-09-28 19:00:17,938 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:00:17,939 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:00:17,939 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:00:17,939 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:00:17,939 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:00:17,939 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:00:17,939 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:00:18,001 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 19:00:18,001 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:00:18,001 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:00:18,001 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:00:18,001 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:00:18,001 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 19:00:21,018 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:00:24,960 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:00:40,992 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:00:40,993 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:00:40,993 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:00:40,993 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:00:40,993 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:00:40,993 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:00:40,993 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:00:40,997 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 19:00:40,997 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:00:40,997 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:00:40,997 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:00:40,997 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:00:40,997 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 19:02:44,786 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:02:44,786 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:02:44,786 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:02:44,786 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:02:44,786 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:02:44,786 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:02:44,786 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:02:44,790 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 19:02:44,790 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:02:44,790 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:02:44,790 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:02:44,790 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:02:44,790 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 19:02:59,189 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:02:59,189 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:02:59,189 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:02:59,189 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:02:59,190 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:02:59,190 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:02:59,190 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:02:59,193 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 19:02:59,204 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:02:59,204 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:02:59,204 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:02:59,204 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:02:59,204 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 19:07:21,570 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:07:21,570 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:07:21,570 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:07:21,570 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:07:21,570 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:07:21,570 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:07:21,570 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:09:30,942 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:09:30,942 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:09:30,942 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:09:30,942 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:09:30,942 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:09:30,942 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:09:30,942 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:18:39,795 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:18:39,795 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:18:39,795 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:18:39,795 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:18:39,795 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:18:39,795 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:18:39,796 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:18:39,797 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 19:18:39,836 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:18:39,836 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:18:39,836 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:18:39,836 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:18:39,836 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 19:18:42,870 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:18:46,877 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:18:49,942 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:21:55,188 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:21:55,188 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:21:55,188 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:21:55,188 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:21:55,189 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:21:55,189 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:21:55,189 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:23:50,786 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:23:50,786 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:23:50,786 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:23:50,786 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:23:50,787 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:23:50,787 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:23:50,787 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:23:50,790 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 19:23:50,791 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:23:50,791 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:23:50,791 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:23:50,791 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:23:50,791 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 19:23:53,846 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:23:57,868 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:27:19,545 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:27:19,545 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:27:19,545 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:27:19,545 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:27:19,545 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:27:19,545 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:27:19,546 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:27:19,549 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 19:27:19,560 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:27:19,560 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:27:19,560 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:27:19,560 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:27:19,560 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 19:27:22,618 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:30:34,858 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:30:34,858 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:30:34,858 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:30:34,858 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:30:34,858 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:30:34,858 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:30:34,858 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:30:34,861 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 19:30:34,862 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:30:34,862 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:30:34,862 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:30:34,862 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:30:34,862 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 19:30:59,621 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:30:59,621 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:30:59,621 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:30:59,621 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:30:59,622 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:30:59,622 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:30:59,622 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:30:59,624 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 19:30:59,636 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:30:59,636 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:30:59,636 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:30:59,636 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:30:59,637 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 19:32:24,661 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:32:24,661 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:32:24,661 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:32:24,661 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:32:24,662 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:32:24,662 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:32:24,662 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:34:37,303 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:34:37,303 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:34:37,304 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:34:37,304 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:34:37,304 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:34:37,304 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:34:37,304 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:35:21,115 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 19:35:21,115 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:35:21,115 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:35:21,115 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:35:21,115 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:35:21,115 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:35:21,115 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 19:36:10,489 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:36:10,489 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:36:10,489 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:36:10,490 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:36:10,490 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:36:10,490 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:36:10,490 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:36:10,494 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 19:36:10,495 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:36:10,495 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:36:10,495 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:36:10,495 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:36:10,495 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 19:37:00,983 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:37:00,983 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:37:00,983 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:37:00,983 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:37:00,984 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:37:00,984 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:37:00,984 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:37:00,988 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:37:00,989 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 19:37:00,999 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:37:00,999 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:37:00,999 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:37:01,000 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:37:01,001 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2021-09-28 19:37:01,001 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 19:37:04,054 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:37:07,041 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:37:07,125 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:37:48,259 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:37:48,259 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:37:48,259 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:37:48,259 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:37:48,259 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:37:48,259 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:37:48,259 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:37:48,262 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:37:48,263 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 19:37:48,263 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:37:48,264 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:37:48,264 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:37:48,264 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:37:48,264 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2021-09-28 19:37:48,264 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 19:37:51,318 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:37:55,339 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:38:42,844 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 19:38:42,844 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:38:42,844 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 19:38:42,844 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:38:42,844 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:38:42,844 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:38:42,844 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 19:38:42,846 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:38:42,847 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 19:38:42,847 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:38:42,847 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:38:42,847 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:38:42,847 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 19:38:42,847 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2021-09-28 19:38:42,847 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 19:38:45,910 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:38:49,935 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:38:53,014 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:39:00,937 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:39:03,990 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:39:19,856 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:39:22,933 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:39:52,449 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=14 
+2021-09-28 19:39:54,848 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:39:55,855 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:39:55,855 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=14 
+2021-09-28 19:39:57,910 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:40:03,932 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:40:03,933 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:40:19,922 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:40:19,923 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:40:51,856 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:40:51,856 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:41:00,937 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:41:03,990 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:41:07,844 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:41:10,902 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:41:18,943 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:41:22,005 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:41:37,845 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:41:40,918 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:41:55,847 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:41:55,847 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:41:59,854 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:41:59,854 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:42:07,932 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:42:07,940 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:42:11,867 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:42:14,934 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:42:23,866 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:42:23,866 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:42:55,860 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:42:55,861 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:43:18,853 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:43:21,914 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:43:24,844 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:43:24,982 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:43:32,928 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:43:35,990 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:43:42,858 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 19:43:51,846 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:43:54,902 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:43:59,860 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:43:59,860 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:44:03,855 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:44:03,855 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:44:11,867 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:44:11,868 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:44:26,944 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:44:27,852 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:44:27,860 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=14 
+2021-09-28 19:44:30,006 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:44:59,936 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:44:59,937 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:45:33,929 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:45:36,982 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:45:40,940 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:45:44,031 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:45:51,924 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:45:54,998 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:46:03,944 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:46:03,944 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:46:07,866 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:46:07,868 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:46:10,937 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:46:14,006 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:46:15,917 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:46:15,918 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:46:31,944 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:46:31,945 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:46:45,893 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:46:48,950 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:47:03,927 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:47:03,927 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:47:52,943 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:47:56,022 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:47:59,853 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:48:02,934 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:48:07,907 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:48:07,916 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:48:10,938 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:48:11,933 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:48:11,933 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=14 
+2021-09-28 19:48:14,006 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:48:19,891 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:48:19,891 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:48:29,861 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:48:32,918 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:48:35,916 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:48:35,917 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:48:42,875 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 19:49:04,849 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:49:07,926 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:49:07,926 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:49:07,928 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:50:10,938 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:50:11,946 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:50:11,946 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=14 
+2021-09-28 19:50:14,006 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:50:15,930 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:50:15,931 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:50:17,845 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:50:20,918 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:50:23,848 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:50:23,848 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:50:28,852 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:50:31,926 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:50:39,936 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:50:39,937 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:50:47,845 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:50:50,902 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:51:11,944 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:51:11,945 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:51:21,937 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:51:25,014 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:52:15,866 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:52:15,866 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:52:19,931 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:52:19,931 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:52:27,873 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:52:27,882 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:52:28,932 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:52:31,990 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:52:35,939 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:52:38,998 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:52:43,852 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:52:43,852 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:52:46,923 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:52:49,974 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:53:05,930 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:53:08,982 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:53:15,937 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:53:15,937 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:53:40,853 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:53:43,925 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:53:43,925 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 19:54:19,846 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:54:19,847 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:54:23,932 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:54:23,932 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:54:31,940 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:54:31,940 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:54:46,845 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:54:47,852 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:54:47,854 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=14 
+2021-09-28 19:54:49,910 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:54:53,935 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:54:57,014 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:55:04,939 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:55:07,990 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:55:19,860 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:55:19,860 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:55:23,943 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:55:26,998 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:55:58,853 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:56:01,909 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:56:23,946 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:56:23,946 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:56:27,930 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:56:27,932 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:56:35,942 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:56:35,943 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:56:51,846 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:56:51,847 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:57:05,929 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:57:08,982 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:57:12,940 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:57:15,989 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:57:23,937 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:57:23,938 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:57:23,938 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=14 
+2021-09-28 19:57:26,997 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:57:42,846 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:57:45,910 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:58:16,853 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:58:19,926 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:58:27,945 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:58:27,946 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:58:31,927 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:58:31,928 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:58:39,942 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:58:39,943 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:58:43,932 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 19:58:55,923 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:58:55,923 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:59:22,851 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:59:25,921 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:59:27,936 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 19:59:27,939 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 19:59:28,930 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:59:28,982 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:59:36,937 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:59:39,990 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 19:59:55,854 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 19:59:58,934 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:00:30,927 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:00:31,935 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:00:31,935 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=14 
+2021-09-28 20:00:34,006 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:00:35,928 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:00:35,928 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:00:43,938 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:00:43,938 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:00:59,941 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:00:59,941 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:01:31,863 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:01:31,863 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:01:37,860 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:01:40,918 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:01:43,926 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:01:43,990 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:01:51,941 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:01:54,997 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:02:10,929 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:02:14,019 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:02:35,946 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:02:35,946 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:02:39,926 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:02:39,926 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:02:45,929 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:02:47,942 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:02:47,944 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=14 
+2021-09-28 20:02:49,024 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:03:03,922 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:03:03,923 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:03:35,877 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:03:35,877 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:03:43,933 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 20:03:52,850 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:03:55,926 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:03:58,848 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:03:58,998 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:04:06,933 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:04:10,006 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:04:25,853 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:04:28,918 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:04:39,925 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:04:39,925 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2021-09-28 20:04:59,853 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:05:02,934 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:06:06,930 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:06:10,005 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:06:13,885 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:06:16,950 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:06:24,904 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:06:27,958 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:06:43,924 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:06:46,998 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:07:18,938 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:07:22,005 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:08:25,844 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:08:28,917 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:08:31,889 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:08:31,990 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:08:39,935 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:08:42,998 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:08:44,926 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 20:08:58,852 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:09:01,910 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:09:32,928 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:09:35,990 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:10:39,925 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:10:42,998 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:10:46,929 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:10:50,005 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:10:57,859 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:11:00,918 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:11:16,904 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:11:19,959 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:11:51,935 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:11:54,998 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:12:58,868 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:13:01,942 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:13:05,931 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:13:08,981 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:13:16,900 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:13:19,958 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:13:35,939 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:13:39,002 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:13:44,927 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 20:14:10,853 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:14:13,910 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:15:16,895 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:15:19,958 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:15:23,846 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:15:26,902 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:15:33,849 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:15:36,918 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:15:51,925 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:15:54,997 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:16:26,852 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:16:29,910 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:17:32,936 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:17:35,990 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:17:39,868 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:17:42,933 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:17:49,849 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:17:52,918 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:18:07,884 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:18:10,933 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:18:41,905 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:18:44,931 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 20:18:44,982 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:19:48,850 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:19:51,926 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:19:54,844 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:19:54,998 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:20:02,923 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:20:05,974 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:20:21,935 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:20:25,014 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:20:56,856 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:20:59,925 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 20:22:29,665 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 20:22:29,665 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:22:29,666 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 20:22:29,666 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 20:22:29,666 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 20:22:29,666 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 20:22:29,666 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 20:22:29,668 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:22:29,668 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 20:22:29,669 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 20:22:29,669 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 20:22:29,669 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 20:22:29,669 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 20:22:29,669 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2021-09-28 20:22:29,669 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 20:22:32,725 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:22:36,730 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:22:39,798 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:22:47,740 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:22:50,805 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:25:56,571 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 20:25:56,571 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:25:56,571 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 20:25:56,571 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 20:25:56,571 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 20:25:56,571 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 20:25:56,571 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 20:25:56,573 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:25:56,574 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 20:25:56,575 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 20:25:56,576 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 20:25:56,576 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 20:25:56,576 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 20:25:56,576 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2021-09-28 20:25:56,576 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 20:25:59,638 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:26:03,626 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:26:06,678 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:26:14,629 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:26:17,686 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:26:33,655 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:26:36,725 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:27:08,631 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:27:11,702 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:28:15,631 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:28:18,709 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:28:22,594 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:28:25,654 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:28:33,667 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:28:36,726 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:28:52,573 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:28:55,638 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:29:27,627 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:29:30,677 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:30:34,628 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:30:37,686 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:30:41,589 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:30:44,662 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:30:52,593 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:30:55,669 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:30:56,628 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 20:31:11,647 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:31:14,710 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:31:46,635 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:31:49,686 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:32:53,634 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:32:56,694 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:33:00,648 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:33:03,702 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:33:11,636 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:33:14,710 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:33:30,656 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:33:33,718 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:34:05,572 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:34:08,629 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:35:12,593 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:35:15,670 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:35:19,598 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:35:22,679 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:35:30,655 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:35:33,717 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:35:49,576 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:35:52,630 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:35:56,634 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 20:36:24,671 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:36:27,733 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:37:31,630 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:37:34,710 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:37:38,642 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:37:41,718 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:37:49,600 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:37:52,662 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:38:08,657 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:38:11,733 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:38:43,666 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:38:46,742 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:39:50,665 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:39:53,718 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:39:57,622 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:40:00,694 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:40:08,622 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:40:11,702 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:40:27,635 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:40:30,710 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:40:56,651 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 20:41:02,655 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:41:05,718 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:42:09,590 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:42:12,661 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:42:15,589 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:42:15,734 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:42:23,604 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:42:26,678 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:42:42,638 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:42:45,718 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:43:17,590 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:43:20,662 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:44:24,628 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:44:27,702 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:44:31,630 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:44:34,710 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:44:42,635 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:44:45,685 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:45:01,646 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:45:04,725 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:45:36,621 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:45:39,674 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:45:57,645 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 20:46:43,627 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:46:46,678 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:46:50,629 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:46:53,686 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:47:01,630 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:47:04,694 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:47:20,594 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:47:23,670 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:47:55,578 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:47:58,646 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:49:02,623 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:49:05,686 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:49:09,629 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:49:12,694 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:49:20,629 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:49:23,701 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:49:39,586 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:49:42,645 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:50:14,660 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:50:17,718 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:50:58,609 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 20:51:21,645 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:51:24,694 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:51:28,644 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:51:31,702 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:51:39,650 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:51:42,709 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:51:58,656 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:52:01,719 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:52:11,402 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=14 
+2021-09-28 20:52:14,647 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:52:14,647 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:52:22,622 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:52:22,623 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:52:33,625 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:52:36,693 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:52:38,607 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:52:38,607 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:53:10,601 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:53:10,601 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:53:40,641 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:53:43,702 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:53:47,592 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:53:50,646 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:53:58,639 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:54:01,718 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:54:14,636 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:54:14,637 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:54:17,621 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:54:18,667 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:54:18,667 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=14 
+2021-09-28 20:54:20,693 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:54:26,635 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:54:26,637 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:54:42,637 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:54:42,637 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:54:52,667 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:54:55,733 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:55:14,587 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:55:14,587 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:55:58,671 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 20:55:59,578 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:56:02,645 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:56:06,668 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:56:09,718 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:56:17,650 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:56:18,657 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:56:18,657 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=14 
+2021-09-28 20:56:20,726 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:56:22,644 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:56:22,644 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:56:30,666 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:56:30,666 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:56:36,628 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:56:39,702 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:56:46,651 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:56:46,653 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:57:11,642 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:57:14,709 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:57:18,653 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:57:18,653 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2021-09-28 20:57:19,844 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:57:23,652 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:57:23,653 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:57:31,624 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:57:31,626 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:57:47,662 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:57:47,662 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:58:18,633 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:58:19,641 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:58:19,641 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=14 
+2021-09-28 20:58:21,689 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:58:25,617 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:58:28,694 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:58:36,600 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:58:39,670 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:58:55,627 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:58:58,677 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:59:23,621 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:59:23,622 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:59:27,665 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:59:27,665 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:59:30,587 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 20:59:33,654 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 20:59:35,629 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:59:35,629 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 20:59:51,624 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 20:59:51,626 [INFO  IM] - <LoginServConn.cpp>|<152>|<OnClose>,login server conn onclose, from handle=8 
+2021-09-28 21:00:23,659 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 21:00:23,659 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2021-09-28 21:00:37,634 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:00:40,694 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 21:00:44,632 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:00:47,702 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=14 
+2021-09-28 21:00:55,638 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:01:02,252 [INFO  IM] - <msg_server.cpp>|<50>|<main>,MsgServer max files can open: 1024 
+2021-09-28 21:01:02,253 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:01:02,253 [INFO  IM] - <DBServConn.cpp>|<69>|<init_db_serv_conn>,DB server connection index for login business: [0, 2), for other business: [2, 4) 
+2021-09-28 21:01:02,253 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 21:01:02,253 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 21:01:02,253 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 21:01:02,253 [INFO  IM] - <DBServConn.cpp>|<144>|<Connect>,Connecting to DB Storage Server 127.0.0.1:10600 
+2021-09-28 21:01:02,255 [INFO  IM] - <LoginServConn.cpp>|<102>|<Connect>,Connecting to LoginServer 192.168.206.132:8100 
+2021-09-28 21:01:02,255 [INFO  IM] - <RouteServConn.cpp>|<139>|<Connect>,Connecting to RouteServer 127.0.0.1:8200 
+2021-09-28 21:01:02,255 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 21:01:02,255 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 21:01:02,255 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 21:01:02,255 [INFO  IM] - <DBServConn.cpp>|<169>|<OnConfirm>,connect to db server success
+2021-09-28 21:01:02,255 [INFO  IM] - <LoginServConn.cpp>|<125>|<OnConfirm>,connect to login server success 
+2021-09-28 21:01:02,255 [INFO  IM] - <RouteServConn.cpp>|<168>|<OnConfirm>,connect to route server success 
+2021-09-28 21:01:05,301 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:01:09,335 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:01:12,446 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:01:20,325 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:01:23,381 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:01:39,347 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:01:42,422 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:02:14,306 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:02:17,365 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:03:21,338 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:03:24,446 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:03:28,347 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:03:31,413 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:03:39,337 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:03:42,390 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:03:58,351 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:04:01,430 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:04:33,348 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:04:36,406 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:05:40,332 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:05:43,381 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:05:47,308 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:05:50,357 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:05:58,333 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:06:01,397 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:06:02,304 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 21:06:17,276 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:06:20,345 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:06:52,291 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:06:55,350 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:07:59,253 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:08:02,325 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:08:05,267 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:08:05,398 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:08:13,339 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:08:16,406 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:08:32,346 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:08:35,414 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:09:07,288 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:09:10,358 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:10:14,347 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:10:17,410 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:10:21,266 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:10:24,342 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:10:32,256 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:10:35,318 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:10:50,258 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:10:53,334 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:11:03,257 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 21:11:24,348 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:11:27,414 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:12:31,268 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:12:34,326 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:12:38,328 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:12:41,398 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:12:49,328 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:12:52,406 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:13:08,349 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:13:11,414 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:13:43,342 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:13:46,421 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:14:50,255 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:14:53,334 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:14:57,305 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:15:00,373 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:15:08,286 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:15:11,350 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:15:27,255 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:15:30,326 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:16:02,334 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:16:03,343 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 21:16:05,398 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:17:09,321 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:17:12,373 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:17:16,275 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:17:19,350 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:17:27,301 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:17:30,357 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:17:46,333 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:17:49,398 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:18:21,253 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:18:24,309 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:19:27,272 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:19:30,325 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:19:34,338 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:19:37,397 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:19:45,349 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:19:48,406 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:20:04,295 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:20:07,350 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:20:39,331 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:20:42,389 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:21:04,350 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 21:21:46,253 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:21:49,302 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:21:53,307 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:21:56,373 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:22:04,270 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:22:07,350 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:22:23,346 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:22:26,422 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:22:58,264 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:23:01,335 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:24:04,353 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:24:07,414 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:24:11,301 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:24:14,358 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:24:22,297 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:24:25,366 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:24:41,337 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:24:44,406 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:25:16,273 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:25:19,349 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:26:05,260 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 21:26:23,307 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:26:26,358 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:26:30,256 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:26:33,334 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:26:41,292 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:26:44,342 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:27:00,293 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:27:03,350 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:27:35,259 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:27:38,326 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:28:42,262 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:28:45,333 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:28:49,316 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:28:52,374 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:29:00,255 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:29:03,318 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:29:18,255 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:29:21,334 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:29:53,326 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:29:56,405 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:31:00,300 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:31:03,349 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:31:05,263 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 21:31:07,253 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:31:10,326 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:31:18,340 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:31:21,398 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:31:37,255 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:31:40,310 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:32:11,315 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:32:14,390 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:33:18,345 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:33:21,399 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:33:25,349 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:33:28,405 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:33:36,279 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:33:39,350 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:33:55,262 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:33:58,326 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:34:30,325 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:34:33,398 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:35:37,272 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:35:40,341 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:35:43,260 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:35:43,414 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:35:51,272 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:35:54,327 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:36:05,265 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 21:36:10,255 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:36:13,333 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:36:45,291 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:36:48,341 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:37:51,334 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:37:54,389 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:37:58,335 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:38:01,398 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:38:09,333 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:38:12,406 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:38:28,260 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:38:31,317 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:39:02,264 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:39:05,334 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:40:08,295 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:40:11,350 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:40:15,262 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:40:18,326 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:40:26,263 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:40:29,334 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:40:45,348 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:40:48,405 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:41:06,265 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 21:41:20,352 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:41:23,414 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:42:27,289 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:42:30,358 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:42:34,265 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:42:37,333 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:42:44,335 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:42:47,414 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:43:03,261 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:43:06,326 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:43:37,257 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:43:40,309 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:44:43,267 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:44:46,327 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:44:49,263 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:44:49,398 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:44:57,255 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:45:00,309 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:45:16,342 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:45:19,413 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:45:51,353 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:45:54,421 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:46:07,268 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 21:46:58,342 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:47:01,398 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:47:05,258 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:47:08,309 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:47:15,255 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:47:18,326 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:47:33,257 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:47:36,310 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:48:07,328 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:48:10,389 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:49:14,340 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:49:17,398 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:49:21,344 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:49:24,407 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:49:32,330 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:49:35,382 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:49:51,255 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:49:54,358 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:50:26,261 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:50:29,334 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:51:08,270 [INFO  IM] - <MsgConn.cpp>|<62>|<msg_conn_timer_callback>,up_msg_cnt=0, up_msg_miss_cnt=0, down_msg_cnt=0, down_msg_miss_cnt=0 
+2021-09-28 21:51:33,353 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:51:36,406 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:51:40,262 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:51:43,318 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:51:50,339 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:51:53,398 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:52:09,260 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:52:12,310 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
+2021-09-28 21:52:43,333 [INFO  IM] - <FileServConn.cpp>|<112>|<Connect>,Connecting to FileServer 192.168.206.131:8601 
+2021-09-28 21:52:46,390 [INFO  IM] - <FileServConn.cpp>|<152>|<OnClose>,onclose from file server handle=8 
